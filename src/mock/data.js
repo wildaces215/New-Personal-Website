@@ -2,38 +2,41 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Craig Albertson | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'A Software devloper located in New Smyrna Beach, Volusia County, FL', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
   name: 'Craig Albertson',
-  subtitle: 'I\'m a software developer at Thinking Clearly Technologies',
+  subtitle: "I'm a software developer at Thinking Clearly Technologies",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'headPhoto.jpg',
-  paragraphOne: 'Since getting my BA in Computer and Information Sciences, I\'ve always loved creating websites, and apps to help people\'s lives easier!',
-  paragraphTwo: 'Though both my course work and my self-published projects through thinking clearly (It\'s a DBA that I own) I have experience with the following languages: C++,Node.js,React.js,Dart and Flutter and Python.Currently I am also learning about cyber security and data science on my free time.',
-  paragraphThree: 'Some hobbies of mine include surfing, reading, doing digital art and hanging out with friends.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "Since getting my BA in Computer and Information Sciences, I've always loved creating websites, and apps to help people's lives easier!",
+  paragraphTwo:
+    "Though both my course work and my self-published projects through thinking clearly (It's a DBA that I own) I have experience with the following languages: C++,Node.js,React.js,Dart and Flutter and Python.Currently I am also learning about cyber security and data science on my free time.",
+  paragraphThree:
+    'Some hobbies of mine include surfing, reading, doing digital art and hanging out with friends.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'note.jpg',
+    title: 'Notety Note',
+    info: 'A simple note taking application used to take notes quickly. On ios, and iphone',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -46,12 +49,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'oldsite.png',
+    title: 'Old Portfilio Website',
+    info:
+      "Hand-coded with Vue.js, left it here for arhceived pruposes also showcases other projects I've done",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sleepy-visvesvaraya-f67d6d.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,17 +63,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'thinkingclearlytech@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'codepen',
@@ -78,7 +77,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'linkedin.com/in/craig-albertson-3a83b218a',
     },
     {
       id: nanoid(),
@@ -90,5 +89,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
