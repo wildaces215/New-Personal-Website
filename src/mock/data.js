@@ -10,17 +10,17 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Craig Albertson',
+  subtitle: 'I\'m a software developer at Thinking Clearly Technologies',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'headPhoto.jpg',
+  paragraphOne: 'Since getting my BA in Computer and Information Sciences, I\'ve always loved creating websites, and apps to help people\'s lives easier!',
+  paragraphTwo: 'Though both my course work and my self-published projects through thinking clearly (It\'s a DBA that I own) I have experience with the following languages: C++,Node.js,React.js,Dart and Flutter and Python.Currently I am also learning about cyber security and data science on my free time.',
+  paragraphThree: 'Some hobbies of mine include surfing, reading, doing digital art and hanging out with friends.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
