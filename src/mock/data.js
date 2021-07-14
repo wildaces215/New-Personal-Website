@@ -6,6 +6,7 @@ export const headData = {
   lang: 'en', // e.g: en, es, fr, jp
   description: 'A Software devloper located in New Smyrna Beach, Volusia County, FL', // e.g: Welcome to my website
 };
+// Need more things for website
 
 // HERO DATA
 export const heroData = {
