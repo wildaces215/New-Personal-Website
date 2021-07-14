@@ -18,6 +18,7 @@ export default function HTML({
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="google-site-verification" content="tn2aHs0JIESx39xW0x4QmBxqZW5lx_nksu_OHBleA9Q" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
       </head>
