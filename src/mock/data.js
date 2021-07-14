@@ -38,15 +38,7 @@ export const projectsData = [
     url: '',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+
   {
     id: nanoid(),
     img: 'oldsite.png',
@@ -71,18 +63,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: 'linkedin.com/in/craig-albertson-3a83b218a',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/wildaces215',
     },
   ],
 };
